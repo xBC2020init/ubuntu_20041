@@ -1,0 +1,11 @@
+ubuntu@ubuntu:~/Desktop$ gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys 843938DF228D22F7B3742BC0D94AA3F0EFE21092
+gpg: key D94AA3F0EFE21092: public key "Ubuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+ubuntu@ubuntu:~/Desktop$ gpg --verify SHA256SUMS.gpg SHA256SUMS
+gpg: Signature made Thu 06 Aug 2020 03:30:35 PM UTC
+gpg:                using RSA key 843938DF228D22F7B3742BC0D94AA3F0EFE21092
+gpg: Good signature from "Ubuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 8439 38DF 228D 22F7 B374  2BC0 D94A A3F0 EFE2 1092
